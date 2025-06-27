@@ -1,8 +1,18 @@
-THIS IS FOR EDUCATIONAL PURPOSES ONLY
+# Password Brute Force Tool (Prototype)
 
-This is a PROTOTYPE of a dictionary/brute force password red team tool, it is LOUD, and you need paramiko, and telnetlib which is NOT even on the newest python3, so you'll have to use an older version if you want to use it, also need the defaults.txt
+**For educational purposes only.**
 
-either way i'm going to add a requirements.txt and it'll just download all the stuff for you, so.... like i said before
-this is a prototype, and will NOT work unless you have those things... also it's limited
-i'm gonna add a bunch of stuff to this, like probably a stealth mode, i'll add rockyou.txt, and a couple other password text files, and a bunch of other stuff, so do NOT clone this repo, this is just here so i can reference back to it when i make the real thing,
-wait for the real thing, it'll be crazy i'll porobably add enervo and nexora to this thing all at once
+Very early-stage password attack tool — noisy and limited. Built for reference, not real use yet.
+
+Requires:
+- Python 3 (older version for `telnetlib`)
+- `paramiko`
+- `defaults.txt` password list
+
+Planned improvements:
+- Stealth mode
+- `rockyou.txt` support
+- Requirements auto-installer
+- Tools like Enervo/Nexora (future integration)
+
+Do not clone — real version coming soon.
